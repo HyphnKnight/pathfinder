@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "diagnostics": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es6",
+    "removeComments": false,
+    "lib": [
+      "es2017",
+      "es2017.object"
+    ],
+    "outDir": "./dist",
+    "types": [
+      "chalk",
+      "node"
+    ]
+  },
+  "files": [
+    "lib/index.ts",
+    "test/index.ts"
+  ]
+}
